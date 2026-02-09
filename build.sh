@@ -11,9 +11,9 @@ rm -rf vendor/xiaomi/sm6150-common
 rm -rf hardware/xiaomi
 
 
-git clone https://github.com/Infinity-X-Devices/android_device_xiaomi_mojito.git -b 16 device/xiaomi/mojito
-git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm6150-common.git -b 16 device/xiaomi/sm6150-common
-git clone https://github.com/Infinity-X-Devices/kernel_xiaomi_mojito -b inline-rom kernel/xiaomi/mojito
+git clone https://github.com/mojito-a16qpr2/device_xiaomi_mojito.git -b 16 device/xiaomi/mojito
+git clone https://github.com/mojito-a16qpr2/device_xiaomi_sm6150-common.git -b 16 device/xiaomi/sm6150-common
+git clone https://github.com/mojito-a16qpr2/kernel_xiaomi_mojito.git -b inline-rom kernel/xiaomi/mojito
 
 git clone https://gitlab.com/k4lchakra/android_vendor_xiaomi_mojito.git -b 16 vendor/xiaomi/mojito
 git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -b 16 vendor/xiaomi/sm6150-common
