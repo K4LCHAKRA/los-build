@@ -13,11 +13,11 @@ rm -rf hardware/xiaomi
 
 git clone https://github.com/Infinity-X-Devices/android_device_xiaomi_mojito.git -b 16 device/xiaomi/mojito
 git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm6150-common.git -b 16 device/xiaomi/sm6150-common
-git clone https://github.com/Infinity-X-Devices/kernel_xiaomi_mojito --depth 1 -b inline-rom kernel/xiaomi/mojito
+git clone https://github.com/Infinity-X-Devices/kernel_xiaomi_mojito -b inline-rom kernel/xiaomi/mojito
 
-git clone https://gitlab.com/k4lchakra/android_vendor_xiaomi_mojito.git --depth 1 -b 16 vendor/xiaomi/mojito
-git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 16 vendor/xiaomi/sm6150-common
-git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
+git clone https://gitlab.com/k4lchakra/android_vendor_xiaomi_mojito.git -b 16 vendor/xiaomi/mojito
+git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -b 16 vendor/xiaomi/sm6150-common
+git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi.git -b mojito hardware/xiaomi
 
 
 . build/envsetup.sh
