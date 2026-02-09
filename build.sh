@@ -16,7 +16,7 @@ git clone https://github.com/mojito-a16qpr2/device_xiaomi_sm6150-common.git -b 1
 git clone https://github.com/mojito-a16qpr2/kernel_xiaomi_mojito.git -b inline-rom kernel/xiaomi/mojito
 
 git clone https://gitlab.com/mojito22/android_vendor_xiaomi_mojito.git -b qpr1 vendor/xiaomi/mojito
-git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -b 16 vendor/xiaomi/sm6150-common
+git clone https://gitlab.com/mojito22/android_vendor_xiaomi_sm6150-common.git -b 16 vendor/xiaomi/sm6150-common
 git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi.git -b mojito hardware/xiaomi
 
 
