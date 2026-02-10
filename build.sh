@@ -1,5 +1,5 @@
-
-repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b bq2 --git-lfs
+# repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
 /opt/crave/resync.sh
 
 
@@ -21,5 +21,8 @@ git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi.git -b mo
 
 
 . build/envsetup.sh
-breakfast mojito user
-make bacon
+lunch lineage_mojito-bp4a-userdebug
+m evolution
+
+# breakfast mojito user
+# make bacon
